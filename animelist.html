@@ -1,0 +1,470 @@
+<html>
+ <head>
+  <title>
+   AnimeVault - Explore our Anime Library
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body>
+  <header>
+      <nav class="navbar">
+          <div class="logo">
+              <a href="index.html" class="nav-logo"><img alt="AnimeVault Logo" src="images/Logo.png"></a>
+              <h1>ANIMEVAULT</h1>
+          </div>
+          <ul class="nav-menu">
+              <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
+              <li class="nav-item"><a class="nav-link" href="animelist.html">ANIME LIST</a></li>
+              <li class="nav-item"><a class="nav-link" href="toppicks.html">TOP PICKS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>   
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+      </header>
+  
+<div class="content-about">
+   <h1>
+    EXPLORE OUR ANIME LIBRARY
+   </h1>
+   <p>
+    Browse through our carefully curated list of anime, categorized by genre, year, and popularity.
+   </p>
+  </div>
+
+  <section class="mobile-filter">
+  <div class="filter">
+    <h2>Quick Filter</h2>
+    <div class="container">
+     <select class="selection" name="genre">
+      <option value="All">
+       All Genres
+      </option>
+      <option value="Action">
+        Action
+       </option>
+       <option value="Adventure">
+        Adventure
+       </option>
+       <option value="Comedy">
+        Comedy
+       </option>
+       <option value="Fantasy">
+        Fantasy
+       </option>
+       <option value="Music">
+        Music
+       </option>
+       <option value="Game">
+        Game
+       </option>
+       <option value="Sci-Fi">
+        Sci-Fi
+       </option>
+       <option value="Psychological">
+        Psychological
+       </option>
+       <option value="Sports">
+        Sports
+       </option>
+     </select>
+     <select name="country">
+      <option value="All">
+       Country
+      </option>
+      <option value="Japan">
+        Japan
+      </option>
+      <option value="China">
+        China
+      </option>
+      <option value="Korea">
+        Korea
+      </option>
+      <option value="USA">
+        USA
+      </option>
+      <option value="Other">
+        Other
+      </option>
+     </select>
+     <select name="season">
+      <option value="All">
+       Season
+      </option>
+      <option value="Winter">
+        Winter
+      </option>
+      <option value="Spring">
+        Spring
+      </option>
+      <option value="Summer">
+        Summer
+      </option>
+      <option value="Fall">
+        Fall
+      </option>
+     </select>
+     <select name="type">
+      <option value="All">
+       All Types
+      </option>
+      <option value="TV Series">
+        TV Series
+      </option>
+      <option value="Movie">
+        Movie
+      </option>
+      <option value="OVA">
+        OVA
+      </option>
+      <option value="ONA">
+        ONA
+      </option>
+     </select>
+     <select name="status">
+      <option value="All">
+       Status
+      </option>
+      <option value="Completed">
+        Completed
+      </option>
+      <option value="On-going">
+        On-going
+      </option>
+      <option value="Upcoming">
+        Upcoming
+      </option>
+     </select>
+     <input placeholder="&#128270; Search Anime" class="search-bar" type="text"/>
+    </div>
+   </div>
+</section>
+
+<section class="desktop-filter">
+    <div class="filter-bar">
+      <h2>Quick Filter</h2>
+      <div class="container">
+       <select class="selection" name="genre">
+        <option value="All">
+         All Genres
+        </option>
+        <option value="Action">
+          Action
+         </option>
+         <option value="Adventure">
+          Adventure
+         </option>
+         <option value="Comedy">
+          Comedy
+         </option>
+         <option value="Fantasy">
+          Fantasy
+         </option>
+         <option value="Music">
+          Music
+         </option>
+         <option value="Game">
+          Game
+         </option>
+         <option value="Sci-Fi">
+          Sci-Fi
+         </option>
+         <option value="Psychological">
+          Psychological
+         </option>
+         <option value="Sports">
+          Sports
+         </option>
+       </select>
+       <select name="country">
+        <option value="All">
+         Country
+        </option>
+        <option value="Japan">
+          Japan
+        </option>
+        <option value="China">
+          China
+        </option>
+        <option value="Korea">
+          Korea
+        </option>
+        <option value="USA">
+          USA
+        </option>
+        <option value="Other">
+          Other
+        </option>
+       </select>
+       <select name="season">
+        <option value="All">
+         Season
+        </option>
+        <option value="Winter">
+          Winter
+        </option>
+        <option value="Spring">
+          Spring
+        </option>
+        <option value="Summer">
+          Summer
+        </option>
+        <option value="Fall">
+          Fall
+        </option>
+       </select>
+       <select name="type">
+        <option value="All">
+         All Types
+        </option>
+        <option value="TV Series">
+          TV Series
+        </option>
+        <option value="Movie">
+          Movie
+        </option>
+        <option value="OVA">
+          OVA
+        </option>
+        <option value="ONA">
+          ONA
+        </option>
+       </select>
+       <select name="status">
+        <option value="All">
+         Status
+        </option>
+        <option value="Completed">
+          Completed
+        </option>
+        <option value="On-going">
+          On-going
+        </option>
+        <option value="Upcoming">
+          Upcoming
+        </option>
+       </select>
+       <input placeholder="&#128270; Search Anime" class="search-bar" type="text"/>
+      </div>
+     </div>
+  </section>
+
+<div class="section">
+    <div class="container">
+        <h2>
+            Anime List
+        </h2>
+    </div>
+    <section class="section">
+        <div class="anime-list">
+         <div class="anime-item">
+            <img alt="Anime 3" height="300" src="https://storage.googleapis.com/a1aa/image/EEElR8VuPXa2EdpNMX3NennMOhEar04rTkQ6vGEnUzRi7SzJA.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                A Journey Through Another World: Raising Kids While Adventuring.
+            </p>
+            <p>
+                Action, Adventure, Comedy Fantasy
+            </p>
+        </div>
+        <div class="anime-item">
+            <img alt="Anime 4" height="300" src="https://storage.googleapis.com/a1aa/image/nPwNUDOEnOotIRsTIZ2WwIKxDYQjQtbOsGWENGpNAj2xdp5E.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                Vtuber Legend: How I Went Viral after Forgetting to Turn Off My Stream
+            </p>
+            <p>
+                Comedy, Slice of Life
+            </p>
+        </div>
+        <div class="anime-item">
+            <img alt="Anime 5" height="300" src="https://storage.googleapis.com/a1aa/image/U3KzeEzn31UULCMqw7zC3PMdZce1Ir4V7f1UfVvet1mG6u0cC.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                Spice and Wolf: Merchant Meets the Wise Wolf
+            </p>
+            <p>
+                Adventure, Drama, Fantasy, Romance
+            </p>
+        </div>
+        
+        <div class="anime-item">
+            <img alt="Anime 6" height="300" src="https://storage.googleapis.com/a1aa/image/sHsPRsY1HcKeBCyBraaDvg5jnMY9SRFbAyutnQUXO4nk7SzJA.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                Shy Season 2
+            </p>
+            <p>
+                Action, Drama, Shounen, Super Power
+            </p>
+        </div>
+        </section>
+        <section class="section">
+            <div class="anime-list">
+             <div class="anime-item">
+            <img alt="Anime 7" height="300" src="https://storage.googleapis.com/a1aa/image/OP6PHlqfAqXPJ6gEykHevw3GMFXZUISulXMLkxGAQUgC3lmTA.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                Fairy Tail: 100 Years Quest
+            </p>
+            <p>
+                Action, Adventure, Comedy Fantasy
+            </p>
+        </div>
+        <div class="anime-item">
+            <img alt="Anime 8" height="300" src="https://storage.googleapis.com/a1aa/image/0qYsdb0h2D7ELFaWTqHxGuCSkDJfur6SVWdcAVRNefaHuLNnA.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                Wistoria: Wand and Sword
+            </p>
+            <p>
+                Action, Adventure, Fantasy, School, Shounen
+            </p>
+        </div>
+        <div class="anime-item">
+            <img alt="Anime 9" height="300" src="https://storage.googleapis.com/a1aa/image/rrEhoYSmUvbSM1ylVI8w7AzZ3xBt3ffzaHl9naG7huwB3lmTA.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                One Piece
+            </p>
+            <p>
+                Action, Adventure, Comedy Fantasy
+            </p>
+        </div>
+        <div class="anime-item">
+            <img alt="Anime 10" height="300" src="https://storage.googleapis.com/a1aa/image/pBxogfl2LfkzxEUDz4nnyYMR4TLkoN6kiunXMfjiFneYcXaOB.jpg" width="200"/>
+            <h4>
+                TV SERIES
+            </h4>
+            <p>
+                I Parry Everything
+            </p>
+            <p>
+                Action, Adventure, Comedy Fantasy
+            </p>
+           </section>
+        </div>
+    </div>
+</div>
+
+<div class="see-more-anime-web">
+    <a href="#">
+     See more &gt;
+    </a>
+   </div>
+
+   <div class="see-more-anime-mob">
+    <a href="toppicks.html">
+     See more &gt;
+    </a>
+   </div>
+
+<section class="section">
+    <div class="container">
+        <h2 class="hide-mo">
+            Top Anime
+        </h2>
+    </div>
+    <div class="anime-list">
+     <div class="top-anime">
+   <h1 class="top">
+    Top 1
+   </h1>
+   <div class="anime-item">
+    <img alt="Top Anime 1" height="300" src="https://storage.googleapis.com/a1aa/image/rrEhoYSmUvbSM1ylVI8w7AzZ3xBt3ffzaHl9naG7huwB3lmTA.jpg" width="200"/>
+    <h4>
+     One Piece
+    </h4>
+    <p>
+     6.9 of 10.0
+    </p>
+   </div>
+   <h3 class="top">
+    Top 2
+   </h3>
+   <div class="anime-item">
+    <img alt="Top Anime 2" height="300" src="https://storage.googleapis.com/a1aa/image/pBxogfl2LfkzxEUDz4nnyYMR4TLkoN6kiunXMfjiFneYcXaOB.jpg" width="200"/>
+    <h4>
+     I Parry Everything
+    </h4>
+    <p>
+     6.9 of 10.0
+    </p>
+   </div>
+   <h3 class="top">
+    Top 3
+   </h3>
+   <div class="anime-item">
+    <img alt="Top Anime 3" height="300" src="https://storage.googleapis.com/a1aa/image/FJN5t2SeUfpvoUukof1a7p6Z7fUNjPKg5fOkFbSzv1RR5u0cC.jpg" width="200"/>
+    <h4>
+     My Hero Academia Season 7
+    </h4>
+    <p>
+     6.9 of 10.0
+    </p>
+   </div>
+   <h3 class="top">
+    Top 4
+   </h3>
+   <div class="anime-item">
+    <img alt="Top Anime 4" height="300" src="https://storage.googleapis.com/a1aa/image/dwOZy3piSvqkJtZC2M2UGXNA83vzs4vVfJvTfiywhvPN3lmTA.jpg" width="200"/>
+    <h4>
+     That Time I Got Reincarnated as a Slime Season 3
+    </h4>
+    <p>
+     6.9 of 10.0
+    </p>
+    </section>
+   </div>
+  </div> 
+  <section class="f-section">
+    <footer>
+      <div class="container">
+       <div class="social-icons">
+        <a href="#">
+         <i class="fab fa-facebook">
+         </i>
+        </a>
+        <a href="#">
+         <i class="fab fa-instagram">
+         </i>
+        </a>
+        <a href="#">
+         <i class="fab fa-tiktok">
+         </i>
+        </a>
+       </div>
+       <p>
+        © Copyright 2023. Anime Vault. All rights reserved.
+       </p>
+       <p>
+        animevault.com
+       </p>
+      </div>
+     </footer>
+    </section>
+    <script src="script.js"></script>
+   </body>
+  </html>
